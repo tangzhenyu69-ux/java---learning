@@ -1,0 +1,14 @@
+package operator;
+
+import java.util.Scanner;
+
+public class operatordemo4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入一个大写字母");
+        char c = sc.next().charAt(0);
+        char cc = (char)(c +32);
+        System.out.println(cc);
+
+    }
+}
